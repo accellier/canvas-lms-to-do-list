@@ -1,10 +1,15 @@
-/**
-// @Name        Full ToDo List
+// ==UserScript==
+// @name        Canvas Marking ToDo List
 // @namespace   https://github.com/accellier/canvas-lms-to-do-list
-// @description dashboard full todo list based on Jerry Nguyen's amazing work.
-// @version	1.0
-// @date	18/06/2025
-**/
+// @description Based on jerryngm's amazing script - all thanks to him
+// @version     3.0
+// @author      jerryngm
+// @match       https://*.instructure.com/*
+// @grant       none
+// @require     https://cdn.datatables.net/v/dt/jszip-3.10.1/dt-2.1.5/b-3.1.2/b-colvis-3.1.2/b-html5-3.1.2/b-print-3.1.2/cr-2.0.4/fh-4.0.1/kt-2.12.1/r-3.0.3/sb-1.8.0/sp-2.3.2/sl-2.0.5/sr-1.4.1/datatables.min.js
+// @require     https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js
+// ==/UserScript==
+
 (function() {
 	'use strict';
 	var enrollment_list
